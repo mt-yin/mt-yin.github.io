@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ming-Ting's personal website">
+  <meta name="author" content="Ming-Ting Yin">
+  <link rel="icon" href="images/yicon.ico">
+  <title>Ming-Ting Yin's Website</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="stylesheets/index.css">
+  <link rel="stylesheet" href="stylesheets/content.css">
+</head>
+<body>
+  <div class="container">
+    <div class="masthead">
+      <div role="navigation">
+        <ul class="nav nav-justified">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li class="active"><a href="research.html">Research</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="publication.html">Publication</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="pagecontent">
+      <div class="research-content">
+        <h3 class="sub-label">Research Projects</h3>
+        <ul id="project-list">
+          <li><a data-toggle="modal" href="#project_1">project 1.<br><img src="images/hojia.jpg" class="img-thumbnail"></a></li>
+          <li><a data-toggle="modal" href="#project_2">project 2.<br><img src="images/hojia.jpg" class="img-thumbnail"></a></li>
+          <li><a data-toggle="modal" href="#project_3">project 3.<br><img src="images/hojia.jpg" class="img-thumbnail"></a></li>
+        </ul>
+      </div>
+      <!-- Modals -->
+      <div class="modal fade" id="project_1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">Project_1 Title</h4>
+            </div>
+            <div class="modal-body">
+              <img src="images/hojia.jpg" style="width:100%">
+              <br><br>
+              <p>This is a good breakfirst.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="project_2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">Project_2 Title</h4>
+            </div>
+            <div class="modal-body">
+              <img src="images/hojia.jpg" style="width:100%">
+              <br><br>
+              <p>This is also a good breakfirst.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="project_3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">Project_3 Title</h4>
+            </div>
+            <div class="modal-body">
+              <img src="images/hojia.jpg" style="width:100%">
+              <br><br>
+              <p>This is a good breakfirst, too.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modals End -->
+    </div>
+    <footer class="footer"><p>Ming-Ting Yin @ 2016</p></footer>
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+
