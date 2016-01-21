@@ -20,7 +20,7 @@
 }
 #project-list li {
 	width: 200px;
-		margin: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
 }
 
 .sub-label {
@@ -30,6 +30,15 @@
 
 #my-name {
 	text-decoration: underline;
+}
+
+.exp-photo {
+	padding-top: 20px;
+}
+.exp-photo ul li {
+	display: inline-block;
+	width: 200px;
+	margin: 10px 10px 10px 10px;
 }
 
 
