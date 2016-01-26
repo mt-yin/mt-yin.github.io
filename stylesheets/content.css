@@ -13,14 +13,17 @@
 .research-content ul li {
 	text-align: center;
 	display: inline-block;
+	font-weight: bold;
+	width: 200px;
+	margin: 10px 15px 10px 15px;
 }
 
-#project-list {
-	padding-left: 100px;
+.project-list {
+	padding-left: 90px;
 }
-#project-list li {
-	width: 200px;
-	margin: 10px 10px 10px 10px;
+
+.modal-title {
+	font-weight: bold;
 }
 
 .sub-label {
