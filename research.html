@@ -7,7 +7,7 @@
   <meta name="description" content="Ming-Ting's personal website">
   <meta name="author" content="Ming-Ting Yin">
   <link rel="icon" href="images/yicon.ico">
-  <title>Ming-Ting Yin's Website</title>
+  <title>Ming-Ting Yin's page</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="stylesheets/index.css">
   <link rel="stylesheet" href="stylesheets/content.css">
@@ -29,14 +29,14 @@
         <h4 class="sub-label">Stent Design and Fatigue Resistance Analysis</h4>
         <ul class="project-list">
           <li><a data-toggle="modal" href="#project_1">Cardiovascular Stent Design<br><img src="images/stent_design.png" class="img-thumbnail"></a></li>
-          <li><a data-toggle="modal" href="#project_2">Finite Element Simulation<br><img src="images/fea_model.png" class="img-thumbnail"></a></li>
+          <li><a data-toggle="modal" href="#project_2">Finite Element Analysis<br><img src="images/fea_model.png" class="img-thumbnail"></a></li>
           <li><a data-toggle="modal" href="#project_3">Fatigue Resistance Analysis<br><img src="images/fatigue_life.png" class="img-thumbnail"></a></li>
         </ul>
-        <h4 class="sub-label">Automatic Control, Embedded Systems and Robotics</h4>
+        <h4 class="sub-label">Robotics, Automatic Control and Embedded Systems</h4>
         <ul class="project-list">
           <li><a data-toggle="modal" href="#project_4">Delta Robot<br><img src="images/robot_vision.png" class="img-thumbnail"></a></li>
           <li><a data-toggle="modal" href="#project_5">DC Motor Control<br><img src="images/motor_control.png" class="img-thumbnail"></a></li>
-          <li><a data-toggle="modal" href="#project_6">Micro Controller<br><img src="images/micro_chip.png" class="img-thumbnail"></a></li>
+          <li><a data-toggle="modal" href="#project_6">Micro Processor<br><img src="images/micro_chip.png" class="img-thumbnail"></a></li>
         </ul>
         <h4 class="sub-label">Micro-Electro-Mechanical Systems (MEMS)</h4>
         <ul class="project-list">
@@ -55,7 +55,7 @@
             <div class="modal-body">
               <img src="images/stent_design.png" style="width:90%; margin:0 auto; display:block">
               <br>
-              <p>Cardiovascular stents are miniature tube-like structures that can be inserted into arteries to support blood vessels and prevent artery collapsing. By tuning critical dimensions of the stent structure, clinical performance may be either improved or sacrificed.</p>
+              <p>Cardiovascular stents are miniature tube-like structures that can be inserted into arteries to support blood vessel walls and prevent artery collapsing. Stent structure may be divided into several repetitive element, by tuning dimensions of stent elemental structure, critical stent performance may be improved.</p>
             </div>
           </div>
         </div>
@@ -65,12 +65,12 @@
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-              <h4 class="modal-title" id="myModalLabel">Finite Element Simulation</h4>
+              <h4 class="modal-title" id="myModalLabel">Finite Element Analysis</h4>
             </div>
             <div class="modal-body">
               <img src="images/fea_model.png" style="width:90%; margin:0 auto; display:block">
               <br>
-              <p>To evaluate stent performance, finite element models were built to simulate mechanical status of stents during implementation and in-vivo period. Simulation results provide information of stents such as stress, strain and stent critical dimensions. The information will be the basis of further analysis of stent performance.</p>
+              <p>To evaluate stent performance, finite element models were built to simulate mechanical status of stents during implementation and in-vivo environment. Simulation results provide information of stents such as stress, strain and stent dimensions. The information will be the basis of further analysis of stent performance.</p>
             </div>
           </div>
         </div>
@@ -85,7 +85,7 @@
             <div class="modal-body">
               <img src="images/fatigue_life.png" style="width:90%; margin:0 auto; display:block">
               <br>
-              <p>Suffered from the repetitive pressure changing and alternating deformation caused by blood pressure and daily activities of patients, stents have risk of fatigue failure. By shifting the concentrated strain and re-distributing them along the bar arm structure, fatigue safety factor of stents increased to almost 2.5 times that of standard stents.</p>
+              <p>Suffered from the repetitive pressure changing and alternating deformation caused by blood pressure, stents have risk of fatigue failure. By shifting the concentrated strain and re-distributing them along the bar arm structure, fatigue safety factor of stents increased to almost 2.5 times that of standard stents.</p>
             </div>
           </div>
         </div>
@@ -100,7 +100,7 @@
             <div class="modal-body">
               <img src="images/robot_vision.png" style="width:90%; margin:0 auto; display:block">
               <br>
-              <p>The robot system comprises of a delta robot, a camera and a set of fixture. Inverse kinematic model was built in Simulink to analise robot arm working space and to control position of end effector. Image processing was done with Matlab to idnetify the positions of objects with defferent colors therefore end effector of robot could move to them automatically.</p>
+              <p>The robot system comprises of a delta robot arm, a camera and a set of fixture. Inverse kinematic model was built in Simulink to analise working space and to control end effector position. Image processing was done with Matlab to idnetify the positions of objects with different colors therefore end effector of robot could move to them automatically.</p>
             </div>
           </div>
         </div>
@@ -115,7 +115,7 @@
             <div class="modal-body">
               <img src="images/motor_control.png" style="width:90%; margin:0 auto; display:block">
               <br>
-              <p>LabVIEW and CompactRIO were used to send swept sine signal to DC motors for system ID. Based on robust control theory, controllers were calculated and determined in Matlab then implemented in LabVIEW program to control motor position.</p>
+              <p>LabVIEW and CompactRIO were used to send swept sine signal to DC motors and acquire response for system ID. Based on motor's dynamic model and robust control theory, controllers were designed in Matlab then implemented to control motor position.</p>
             </div>
           </div>
         </div>
@@ -125,12 +125,12 @@
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-              <h4 class="modal-title" id="myModalLabel">Micro Controller</h4>
+              <h4 class="modal-title" id="myModalLabel">Micro Processor</h4>
             </div>
             <div class="modal-body">
               <img src="images/micro_chip.png" style="width:90%; margin:0 auto; display:block">
               <br>
-              <p>Micro processor was used for system integration in the elevator controller project. The elevator control system comprises of a LED display for floor indication, a set of buutons to control the termination floor, motors with drivers to pull the elevator mechanism and a micro processor to integrate modules and control the elevator operation.</p>
+              <p>In the elevator controller project, floor control panel and motor system were built. The system comprises of an LED display for floor indication, a set of buttons to input the target floor, motors with drivers to pull the elevator mechanism and micro processors for system integration.</p>
             </div>
           </div>
         </div>
@@ -145,7 +145,7 @@
             <div class="modal-body">
               <img src="images/mems_device.png" style="width:90%; margin:0 auto; display:block">
               <br>
-              <p>Laser Doppler interferometer was used to measure natural frequency of the probe of scanning tunnelling microscope (STM) and evaluate the efficiency of our micro devices.</p>
+              <p>Laser Doppler interferometer was used to measure natural frequency of the probe of scanning tunnelling microscope (STM), which can be used to scan surface profile of micro structures.</p>
             </div>
           </div>
         </div>
@@ -160,7 +160,7 @@
             <div class="modal-body">
               <img src="images/mems_design.png" style="width:90%; margin:0 auto; display:block">
               <br>
-              <p>With piezoelectrical material, micro structures have ability to generate oscillating electric field during vibration. By collecting the electric power from integrated array of those structures, the micro devices could be used as power generators while attached on external oscillation resources.</p>
+              <p>With piezoelectrical material, micro structures have ability to generate oscillating electric field during vibration. By harvesting the electric power from integrated array of the micro structures, the micro devices could be used as power generators while attached on external oscillation resources.</p>
             </div>
           </div>
         </div>
